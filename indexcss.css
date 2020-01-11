@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header {
+    background-image: url(./gdgschoolweb-master/websitebg.png);
+    background-repeat: no-repeat; /*pour que le background ne se repete pas si on ajoute une autre photo */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 70px;
+    height: 70px
+}
+li {
+    float : right;
+}
+ul{
+    list-style-type: none; /* pour enlever les points */
+    display: inline; /*pour les placer en haut */ 
+}
+li a {
+    text-align: center;
+    padding: 20px; /* pour laisser l'espace entre les mots*/
+    text-decoration: none; /* pour enlever les sous-lignes*/
+}
+li a:hover {
+    color: #4785b3;
+    width: 20px;
+}
+.containall {
+    margin: auto;
+    width: 1140px;
+}
+nav{
+    padding-top: 20px;
+}
+button{
+    background-color: transparent;
+    border-radius: 20px; /*pour arrondir le bouton*/
+    border-color: #4785b3;
+    border-style: solid; /*pour enlever l'ombrage de la couleur*/
+    margin-right: 20px; /*pour laisser l'espace entre les boutons*/
+    width: 180px;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+button:hover{
+    width: 195px;
+    height: 45px;
+    background-color: #4785b3;
+    color: white;
+}
+nav{
+    padding-top: 50px;
+}
